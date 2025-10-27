@@ -11,8 +11,9 @@ Este repositório é uma coletânea de pequenos códigos, exercícios de sala, t
 ```
 Repositorio
      ├──.vscode ── PODE SER IGNORADO
-     ├──ExerciciosEmJava ── esta pasta contem os exercicios em java
-     ├──(outras linguagens futuramente)
+     ├──ExerciciosEmJava ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em Java
+     ├──ExerciciosEmPython ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em Python
+     ├        └── Exercicios de pratica e cursos separados por pastas.
      ├──.gitattributes ── PODE SER IGNORADO
      ├──LICENSE ── Licença do repositorio
      └──README.md ── PODE SER IGNORADO
