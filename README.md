@@ -7,7 +7,19 @@ Seja bem-vindo ao meu espaço de experimentos!
 Este repositório é uma coletânea de pequenos códigos, exercícios de sala, tarefas de casa e testes aleatórios que fui criando enquanto explorava o universo da programação.
 
 ---
+## Estrutura de pastas
+```
+Repositorio
+     ├──.vscode ── PODE SER IGNORADO
+     ├──Java ── esta pasta contem os exercicios em java
+     ├──(outras linguagens futuramente)
+     ├──.gitattributes ── PODE SER IGNORADO
+     ├──LICENSE ── Licença do repositorio
+     └──README.md ── PODE SER IGNORADO
+ 
+```
 
+---
 ##  Sobre mim
 
 Sou o **Matheus, tambem conhecido como "MIr4aii" pela internet**. Estudante de **programação**. Curioso por natureza e apaixonado por transformar ideias em código.  
