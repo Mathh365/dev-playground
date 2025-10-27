@@ -1,0 +1,1 @@
+Exercícios feitos na aula de ciências exatas, praticando tanto Java, quanto multiplicação entre arrays
