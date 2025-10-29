@@ -23,6 +23,8 @@ public class simuladoAC2 {
             array1[i] = nome;
         }
 
-        System.out.println(array1);
+        for (int i = 0; i < array1.length; i++){
+            System.out.println(array1[i]);
+        }
     }
 }
