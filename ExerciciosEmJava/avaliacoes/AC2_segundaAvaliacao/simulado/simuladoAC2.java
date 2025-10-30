@@ -13,18 +13,18 @@ public class simuladoAC2 {
         System.out.print("Qual é o total de produtos que voce vai cadastrar?\nTotal: ");
         produtosCadastrados = sc.nextInt();
         if (produtosCadastrados <= 0) System.out.println("ERRO!! O numero deve ser maior do que zero(0)");
+        sc.nextLine();
         
-        String[] array1 = new String[produtosCadastrados];
+        String[] nomesProdutos = new String[produtosCadastrados];
+        int[] estoqueProdutos = new int[produtosCadastrados];
 
         for (int i = 0; i < produtosCadastrados; i++){
-            String nome;
-            System.out.println("Digite o nome do produto " + (i+1));
-            nome = sc.nextLine();
-            array1[i] = nome;
+            System.out.print("Digite o nome do produto " + (i + 1) + "\n:");
+            nomesProdutos[i] = sc.nextLine();
         }
 
-        for (int i = 0; i < array1.length; i++){
-            System.out.println(array1[i]);
-        }
+        // for (int i = 0; i < nomesProdutos.length; i++){
+        //     System.out.println(nomesProdutos[i]);
+        // }
     }
 }

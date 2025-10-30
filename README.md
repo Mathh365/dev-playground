@@ -7,7 +7,9 @@ Seja bem-vindo ao meu espaço de experimentos!
 Este repositório é uma coletânea de pequenos códigos, exercícios de sala, tarefas de casa e testes aleatórios que fui criando enquanto explorava o universo da programação.
 
 ---
+
 ## Estrutura de pastas
+
 ```
 Repositorio
      ├──.vscode ── PODE SER IGNORADO
@@ -21,7 +23,8 @@ Repositorio
 ```
 
 ---
-##  Sobre mim
+
+## Sobre mim
 
 Sou o **Matheus, tambem conhecido como "MIr4aii" pela internet**. Estudante de **programação**. Curioso por natureza e apaixonado por transformar ideias em código.  
 Cada commit é parte da minha história de aprendizado, e este repositório é meu diário de bordo digital.
@@ -29,18 +32,18 @@ Cada commit é parte da minha história de aprendizado, e este repositório é m
 > “Não programo pra impressionar — programo pra entender.”
 ---
 
-##  O que você vai encontrar por aqui
+## O que você vai encontrar por aqui
 
--  **Exercícios práticos**, feitos durante as aulas  
--  **Códigos de avaliações** e desafios  
--  **Projetinhos de brincadeira**, onde testei ideias e conceitos  
--  **Scripts utilitários** e mini testes de lógica  
+- **Exercícios práticos**, feitos durante as aulas  
+- **Códigos de avaliações** e desafios  
+- **Projetinhos de brincadeira**, onde testei ideias e conceitos  
+- **Scripts utilitários** e mini testes de lógica  
 
 > Cada diretório é uma lembrança do processo. O código pode ser simples, mas a lição nunca é pequena.
 
 ---
 
-##  Objetivo
+## Objetivo
 
 O foco deste repositório é **mostrar minha evolução como programador**, cada diretório representa um passo nessa jornada.  
 Seja um algoritmo simples ou uma mini aplicação, tudo aqui reflete o aprendizado em tempo real e a vontade constante de criar.  
@@ -50,7 +53,7 @@ Desde os meus primeiros códigos, ainda tateando os conceitos básicos, até os 
 
 ---
 
-##  Tecnologias e conceitos
+## Tecnologias e conceitos
 
 - **Python & Java** como principais linguagens.
 - **Lógica de Programação** e pensamento computacional  
