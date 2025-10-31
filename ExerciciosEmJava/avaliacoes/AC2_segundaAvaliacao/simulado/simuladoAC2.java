@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class simuladoAC2 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int estoqueMinimo = 0, produtosACadastrar = 0, soma = 0;
+        int estoqueMinimo = 0, produtosACadastrar = 0,  totalDeProdutos = 0, adequado = 0, baixo = 0, critico = 0;
         
         System.out.println("Qual é a quantidade minima de estoque que um produto pode ter?");
         estoqueMinimo = sc.nextInt();
@@ -30,8 +30,22 @@ public class simuladoAC2 {
             else if (quantidade[i] >= (estoqueMinimo / 2)) status[i] = "Baixo";
             else if (quantidade[i] < (estoqueMinimo / 2)) status[i] = "Critico";
 
-            soma += quantidade[i];
+            totalDeProdutos += quantidade[i];
             
+            switch (status[i]) {
+                case "Adequado":
+                    adequado ++;
+                    break;
+                case "Baixo":
+                    baixo ++;
+                    break;
+                case "Critico":
+                    critico ++;
+                    break;
+                default:
+                    break;
+            }
+
             System.out.printf("""
 
                 Produto: %s
@@ -39,15 +53,22 @@ public class simuladoAC2 {
                 Status: %s\n""", nomeDosProdutos[i], quantidade[i], status[i]);
         }
 
+        System.out.println("Segue um relatorio de todos os produtos em estoque: ");
         for (int i = 0; i < nomeDosProdutos.length; i++){
             System.out.printf("""
             
-            Segue um relatorio de todos os produtos em estoque:
+            Produto %d
             -Nome do produto             : %s
             -Quantidade em estoque       : %d
-            -Status                      : %s\n""",nomeDosProdutos[i], quantidade[i], status[i]);
+            -Status                      : %s\n""",i, nomeDosProdutos[i], quantidade[i], status[i]);
         }
-        System.out.println("Total de produtos em estoque: " + soma);
+        System.out.println("Total de produtos em estoque: " +   totalDeProdutos);
+        System.out.printf("""
+                \n\n
+                A porcentagem de produtos em cada categoria, é:
+                Adequado: %.2f %
+                Baixo   : %.2f %
+                Critico : %.2f %
+                """,((adequado / 100) * totalDeProdutos), ((baixo / 100) * totalDeProdutos), ((critico / 100) * totalDeProdutos));
     }
-    
 }
