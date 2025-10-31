@@ -60,15 +60,15 @@ public class simuladoAC2 {
             Produto %d
             -Nome do produto             : %s
             -Quantidade em estoque       : %d
-            -Status                      : %s\n""",i, nomeDosProdutos[i], quantidade[i], status[i]);
+            -Status                      : %s\n""",i + 1, nomeDosProdutos[i], quantidade[i], status[i]);
         }
         System.out.println("Total de produtos em estoque: " +   totalDeProdutos);
         System.out.printf("""
                 \n\n
                 A porcentagem de produtos em cada categoria, é:
-                Adequado: %.2f %
-                Baixo   : %.2f %
-                Critico : %.2f %
-                """,((adequado / 100) * totalDeProdutos), ((baixo / 100) * totalDeProdutos), ((critico / 100) * totalDeProdutos));
+                Adequado: %.2f %%
+                Baixo   : %.2f %%
+                Critico : %.2f %%
+                """,((adequado / 100) * produtosACadastrar), ((baixo / 100) * produtosACadastrar), ((critico / 100) * produtosACadastrar));
     }
 }
