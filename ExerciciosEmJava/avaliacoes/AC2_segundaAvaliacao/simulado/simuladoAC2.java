@@ -3,9 +3,12 @@ import java.util.Scanner;
 
 public class simuladoAC2 {
     public static void main(String[] args){
+        //---------------------------------------------------------------------------------------
+        // Declaraçoes
         Scanner sc = new Scanner(System.in);
-        int estoqueMinimo = 0, totalDeProdutos = 0; 
+        int estoqueMinimo = 0, totalDeProdutos = 0, reposiaoNecessaria = 0, estoqueIdeal = 0, reposicaoTotal = 0;
         double adequado = 0, baixo = 0, critico = 0, produtosACadastrar = 0;
+        //---------------------------------------------------------------------------------------
         
         System.out.println("Qual é a quantidade minima de estoque que um produto pode ter?");
         estoqueMinimo = sc.nextInt();
@@ -16,13 +19,16 @@ public class simuladoAC2 {
         if (produtosACadastrar <= 0) System.out.println("ERRO!! O numero deve ser maior do que zero(0)");
         sc.nextLine();
         
-        String[] nomeDosProdutos = new String[(int)produtosACadastrar];
+        //------------------------------------------------------------------
+        // Declaração dos arrays
+        String[] listaDeProdutos = new String[(int)produtosACadastrar];
         int[] quantidade = new int[(int)produtosACadastrar];
         String[] status = new String[(int)produtosACadastrar];
+        //------------------------------------------------------------------
 
         for (int i = 0; i < produtosACadastrar; i++){
             System.out.print("\nDigite o nome do produto " + (i + 1) + "\nProduto:");
-            nomeDosProdutos[i] = sc.nextLine();
+            listaDeProdutos[i] = sc.nextLine();
             System.out.print("Quantos voce tem em estoque?\nEstoque:");
             quantidade[i] = sc.nextInt();
             sc.nextLine();
@@ -35,13 +41,13 @@ public class simuladoAC2 {
             
             switch (status[i]) {
                 case "Adequado":
-                    adequado += 1;
+                    adequado ++;
                     break;
                 case "Baixo":
-                    baixo += 1;
+                    baixo ++;
                     break;
                 case "Critico":
-                    critico += 1;
+                    critico ++;
                     break;
                 default:
                     break;
@@ -51,25 +57,53 @@ public class simuladoAC2 {
 
                 Produto: %s
                 Quantidade: %d
-                Status: %s\n""", nomeDosProdutos[i], quantidade[i], status[i]);
+                Status: %s\n""", listaDeProdutos[i], quantidade[i], status[i]);
         }
 
         System.out.println("\nSegue um relatorio de todos os produtos em estoque: ");
-        for (int i = 0; i < nomeDosProdutos.length; i++){
+        for (int i = 0; i < listaDeProdutos.length; i++){
             System.out.printf("""
-            ---------------------------------------
-            Produto %d
-            -Nome do produto             : %s
-            -Quantidade em estoque       : %d
-            -Status                      : %s\n""",i + 1, nomeDosProdutos[i], quantidade[i], status[i]);
+                ---------------------------------------
+                Produto %d
+                -Nome do produto             : %s
+                -Quantidade em estoque       : %d
+                -Status                      : %s
+                """,i + 1, listaDeProdutos[i], quantidade[i], status[i]);
         }
         System.out.println("\nTotal de produtos em estoque: " + totalDeProdutos);
         System.out.printf("""
-                \n
-                A porcentagem de produtos em cada categoria, é:
-                Adequado: %.2f %%
-                Baixo   : %.2f %%
-                Critico : %.2f %%
-                """,((adequado * 100) / produtosACadastrar), ((baixo * 100) / produtosACadastrar), ((critico * 100) / produtosACadastrar));
+            
+            A porcentagem de produtos em cada categoria, é:
+            Adequado: %.2f %%
+            Baixo   : %.2f %%
+            Critico : %.2f %%
+            """,((adequado * 100) / produtosACadastrar), ((baixo * 100) / produtosACadastrar), ((critico * 100) / produtosACadastrar));
+
+        System.out.println("\nQual o estoque ideal para cada produto?");
+        estoqueIdeal = sc.nextInt();
+        if (estoqueIdeal <= 0){
+            while(estoqueIdeal <= 0) {
+                System.out.println("Invalido, digite um numero maior que 0\nEstoque minimo: ");
+                estoqueIdeal = sc.nextInt();
+            }
+        }
+
+        System.out.println("\nRelatorio de reposição: ");
+        for (int i = 0; i < listaDeProdutos.length; i++){
+            if (quantidade[i] < estoqueIdeal){
+                reposiaoNecessaria = estoqueIdeal - quantidade[i];
+                reposicaoTotal += reposiaoNecessaria;
+                System.out.printf("\nProduto: %s -- Falta: %dun.", listaDeProdutos[i], reposiaoNecessaria);
+            } else {
+                System.out.println("\n\nNão ha necessidade de reposição para " + listaDeProdutos[i] + "\nQuantidade em estoque: " + quantidade[i]);
+            }
+        }
+
+        System.out.printf("""
+            
+            Total de produtos para reposição                     : %d
+            Porcentagem de reposição em relação ao estoque total : %.1f%%
+            \n
+            """, reposicaoTotal,(((double)reposicaoTotal * 100) / (double)totalDeProdutos));
     }
 }
