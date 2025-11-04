@@ -14,6 +14,7 @@ public class Ex08 {
         int numeroABuscar = 0, index = 0;
 
         for (int i = 0; i < array1.length; i++) {
+            System.out.print("Digite um numero\nNumero: ");
             array1[i] = sc.nextInt();
         }
 
@@ -23,6 +24,6 @@ public class Ex08 {
         for (int i = 0; i < array1.length; i++) {
             index++;
             if (array1[i] == numeroABuscar) System.out.printf("\nNumero: %d\nÍndice: %d" , numeroABuscar, (index-1));
-        }
+        } 
     }
 }
