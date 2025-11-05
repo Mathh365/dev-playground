@@ -5,7 +5,7 @@ class Canal:
         self.descricao = descricao
         self.editor = editor
         self.dono = dono
-        self.playLists: list[PlayList] = []
+        self._playLists: list[PlayList] = []
     @property
     def info(self):
         print(f"""
@@ -14,7 +14,7 @@ class Canal:
         Editor: {self.editor}
         Inscritos: {self.inscritos}
         Descrição: {self.descricao}
-        PlayLists: {self.playLists}
+        PlayLists: {self._playLists}
         """)
 
     def inscrever(self):
@@ -22,10 +22,22 @@ class Canal:
         print(f"Numero de inscritos atualizado com sucesso: {self.inscritos}.")
         
     def addPlaylist(self, playlist):
-        self.playLists.append(playlist)
+        if playlist not in self._playLists:
+            self._playLists.append(playlist)
+            print(f"Playlist {playlist} adicionada com sucesso!!")
+        else:
+            print("Esta playlist ja faz parte do canal")
+            
+    def removePlaylist(self, playlist):
+        if playlist in self._playLists:
+            self._playLists.remove(playlist)
+            print(f"Playlist '{playlist}' removida com sucesso.")
+        else:
+            print("Esta playlist nao existe no canal")
         
     def getPlaylists(self):
-        for i in  self.playLists:
+        print(f"ESTAS SÃO AS PLAYLISTS CONTIDAS NO CANAL '{self.nome}'\n")
+        for i in  self._playLists:
             print(i)
             i.inform
 
@@ -75,23 +87,29 @@ class video:
 class PlayList:
     def __init__(self, titulo):
         self.titulo = titulo
-        self.videos: list[video] = []
+        self._videos: list[video] = []
     @property
     def numeroDeVideos(self):
-        return len(self.videos)
+        return len(self._videos)
     @property
     def inform(self):
-        for video in self.videos:
-            print(video.info() + "\n")
+        for _video in self._videos:
+            print(_video.info() + "\n")
         
                 
     def __repr__(self):
         return f"<PlayList: {self.titulo}>"
         
     def addVideo(self, video):
-        self.videos.append(video)
+        if video not in self._videos:
+            self._videos.append(video)
+            print(f"_Video '{video}' adicionado com sucesso a playlist {self.titulo} !!")
+        else:
+            print("Este video ja esta na playlist")
         
     def removerVideo(self, video):
-        self.videos.remove(video)
-
-    
+        if video in self._videos:
+            self._videos.remove(video)
+            print(f"Video '{video}' removido com sucesso da playlist {self.titulo} !!")
+        else:
+            print("Este video nao existe nesta playlist")
