@@ -11,7 +11,7 @@ public class Ex03 {
         String[] array1 = new String[10];
 
         for (int i = (array1.length - 1); i > 0; i--){
-            System.out.print("Digite uma palavra\nNumero: ");
+            System.out.print("Digite uma palavra\nPalavra: ");
             array1[i] = sc.nextLine();
         }
 
