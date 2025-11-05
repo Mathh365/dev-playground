@@ -12,6 +12,7 @@ introducao = canal.video("Bora aprender POO?", "ensinando POO de forma pratica",
 
 playlist1.addVideo(foca)
 playlist1.addVideo(introducao)
+playlist2.addVideo(mineDosCria)
 meuCanal.addPlaylist(playlist1)
 meuCanal.addPlaylist(playlist2)
 
@@ -22,6 +23,3 @@ foca.darDeslike()
 introducao.darLike()
 introducao.assistir()
 introducao.comentar("Esse sim, conteudo de qualidade")
-meuCanal.inscrever()
-
-print(playlist1.info())

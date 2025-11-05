@@ -5,18 +5,7 @@ class Canal:
         self.descricao = descricao
         self.editor = editor
         self.dono = dono
-        self.playLists = []
-
-    def inscrever(self):
-        self.inscritos += 1
-        print(f"Numero de inscritos atualizado com sucesso: {self.inscritos}.")
-        
-    def addPlaylist(self, playlist):
-        self.playLists.append(playlist)
-        
-    def getPlaylists(self):
-        print(self.playLists)
-        
+        self.playLists: list[PlayList] = []
     @property
     def info(self):
         print(f"""
@@ -27,6 +16,18 @@ class Canal:
         Descrição: {self.descricao}
         PlayLists: {self.playLists}
         """)
+
+    def inscrever(self):
+        self.inscritos += 1
+        print(f"Numero de inscritos atualizado com sucesso: {self.inscritos}.")
+        
+    def addPlaylist(self, playlist):
+        self.playLists.append(playlist)
+        
+    def getPlaylists(self):
+        for i in  self.playLists:
+            print(i)
+            i.inform
 
 
 #-----------------------------------------------------------------------------
@@ -78,6 +79,10 @@ class PlayList:
     @property
     def numeroDeVideos(self):
         return len(self.videos)
+    @property
+    def inform(self):
+        for video in self.videos:
+            print(video.info() + "\n")
         
                 
     def __repr__(self):
@@ -89,7 +94,4 @@ class PlayList:
     def removerVideo(self, video):
         self.videos.remove(video)
 
-    def info(self):
-        for video in self.videos:
-            print(video.info() + "\n")
     
