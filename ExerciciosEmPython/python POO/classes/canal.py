@@ -7,14 +7,14 @@ class Canal:
         self.dono = dono
         self.playLists = []
 
-    def inscrever(self, quantidade):
-        self.inscritos += quantidade
-        print(f"Numero atualizado de inscritos: {self.inscritos}.\n{quantidade} inscritos foram adicionados com sucesso.")
+    def inscrever(self):
+        self.inscritos += 1
+        print(f"Numero de inscritos atualizado com sucesso: {self.inscritos}.")
         
     def addPlaylist(self, playlist):
         self.playLists.append(playlist)
         
-    def playlistList(self):
+    def getPlaylists(self):
         print(self.playLists)
         
     @property
@@ -27,6 +27,10 @@ class Canal:
         Descrição: {self.descricao}
         PlayLists: {self.playLists}
         """)
+
+
+#-----------------------------------------------------------------------------
+
 
 class video:
     def __init__(self, nome, descricao, dia, mes, ano):
@@ -60,13 +64,20 @@ class video:
     def darDeslike(self):
         self.deslikes += 1
 
-    def comentar(self, coment):
-        self.comentarios.append(coment)
+    def comentar(self, comentario):
+        self.comentarios.append(comentario)
+        
+        
+#----------------------------------------------------------------------
+        
         
 class PlayList:
     def __init__(self, titulo):
         self.titulo = titulo
         self.videos: list[video] = []
+    @property
+    def numeroDeVideos(self):
+        return len(self.videos)
         
                 
     def __repr__(self):
@@ -82,6 +93,3 @@ class PlayList:
         for video in self.videos:
             print(video.info() + "\n")
     
-    @property
-    def numeroDeVideos(self):
-        return len(self.videos)
