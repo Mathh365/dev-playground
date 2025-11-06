@@ -1,5 +1,3 @@
-//Matheus Marcelo Cassiolato Crudi - 200284 - ADS - CÓDIGO: <AC1-27>
-
 package avaliacoes.AC1_primeiraAvaliacao;
 import java.util.Scanner;
 
