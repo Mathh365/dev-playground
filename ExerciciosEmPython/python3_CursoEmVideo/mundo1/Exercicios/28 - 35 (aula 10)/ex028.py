@@ -1,8 +1,6 @@
 # #escreva um programa que faça o computador pensar em um numero inteiro entre 0 e 5,peça para o usuario tenta adivinhar o numero escolhido pelo computador, e o programa diz se o usuario venceu ou perdeu
 from random import choice
 
-from scripts.meusMetodos.coletorDeNomes import coletor_de_nomes
-
 rdn = None
 
 numeros = [0, 1, 2, 3, 4, 5]
