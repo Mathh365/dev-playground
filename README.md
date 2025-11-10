@@ -62,4 +62,4 @@ Desde os meus primeiros códigos, ainda tateando os conceitos básicos, até os 
 
 ---
 
-⭐ *Se quiser acompanhar minha evolução, explorar meus códigos ou simplesmente trocar ideias, sinta-se em casa.*  
+⭐ *Se quiser acompanhar minha evolução, explorar meus códigos ou simplesmente trocar ideias, sinta-se em casa.*
