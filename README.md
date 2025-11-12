@@ -19,7 +19,6 @@ Repositorio
      ├──.gitattributes ── PODE SER IGNORADO
      ├──LICENSE ── Licença do repositorio
      └──README.md ── PODE SER IGNORADO
-     
 ```
 
 ---
