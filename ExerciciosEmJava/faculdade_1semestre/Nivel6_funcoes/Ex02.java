@@ -2,7 +2,7 @@
 // uma mensagem:
 // "Olá, <nome>, você tem <idade> anos."
 
-package faculdade_1semestre.nivel6_funcoes;
+package faculdade_1semestre.Nivel6_funcoes;
 
 public class Ex02 {
     public static void main(String[] args) {
