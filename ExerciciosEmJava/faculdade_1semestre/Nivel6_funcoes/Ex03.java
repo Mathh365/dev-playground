@@ -1,6 +1,6 @@
 //Crie uma função que receba 3 notas e retorne a média
 
-package faculdade_1semestre.Nivel6_funcoes;
+package faculdade_1semestre.nivel6_funcoes;
 
 public class Ex03
 {
