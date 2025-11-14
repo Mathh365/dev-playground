@@ -21,7 +21,7 @@ public class Ex03
             acumulador ++;
         }
 
-        return soma / acumulador;
+        return soma / acumulador; 
     }
 }
 
