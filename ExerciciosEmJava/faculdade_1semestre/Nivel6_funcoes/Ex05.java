@@ -1,7 +1,7 @@
 // /Escreva um programa que tenha uma função menu() para exibir
 // opções e outras funções para executar as ações de cada opção.
 
-package faculdade_1semestre.Nivel6_funcoes;
+package faculdade_1semestre.nivel6_funcoes;
 import java.util.Scanner;
 
 public class Ex05
