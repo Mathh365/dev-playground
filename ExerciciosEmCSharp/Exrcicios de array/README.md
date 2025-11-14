@@ -1,6 +1,6 @@
 # Exercícios de Programação em C#
 
-Exercícios passados em sala de aula para serem feitos em Java, inclusive podem ser encontrados na pasta **ExerciciosEmJava** logo abaixo.  
+Exercícios passados em sala de aula para serem feitos em Java, inclusive podem ser encontrados na pasta [**ExerciciosEmJava**](https://github.com/Mathh365/dev-playground/tree/4aca2965ca859eb9d4af31c95eb2d44e98e0fb20/ExerciciosEmJava/faculdade_1semestre) logo abaixo.  
 Porém, para praticar minhas habilidades de C#, que é a linguagem que pretendo dominar, resolvi fazê-los também pelo **.NET**.
 
 O exercício exibido abaixo é o [quinto dessa sequência](Ex05.cs), que apresenta um menu interativo no console.  
