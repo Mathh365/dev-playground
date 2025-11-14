@@ -63,12 +63,11 @@ public static class Ex05
 
     private static void Loading ()
     {
-        Console.Write(".");
-        Thread.Sleep(1000);
-        Console.Write(".");
-        Thread.Sleep(1000);
-        Console.Write(".");
-        Thread.Sleep(1000);
+        for (var i = 0; i < 3; i++)
+        {
+            Console.Write(".");
+            Thread.Sleep(1000);
+        }
     }
 
     private static void Pausar ()
