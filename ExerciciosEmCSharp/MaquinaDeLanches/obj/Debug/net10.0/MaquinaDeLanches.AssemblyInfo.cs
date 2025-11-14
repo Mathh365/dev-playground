@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaquinaDeLanches")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ef7332bc59967d0022e052f09ff61569d3be323")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e630d6823500cc7b21a43707f5485ad8eef3fc39")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaquinaDeLanches")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaquinaDeLanches")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
