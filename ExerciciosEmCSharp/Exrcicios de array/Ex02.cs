@@ -3,13 +3,11 @@
 // "Olá, <nome>, você tem <idade> anos."
 
 Console.Clear();
-Ex02.Saudacao("Matheus", 24);
+Saudacao("Matheus", 24);
 
-public static class Ex02
+
+static void Saudacao(string nome, int idade)
 {
-    public static void Saudacao(string nome, int idade)
-    {
-        Console.WriteLine($"Ola {nome}, voce tem {idade} anos.");
-        
-    }
+    Console.WriteLine($"Ola {nome}, voce tem {idade} anos.");
+    
 }
