@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\MaquinaDeLanches\\MaquinaDeLanches.csproj": {}
+    "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\Utilitarios\\Utilitarios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\MaquinaDeLanches\\MaquinaDeLanches.csproj": {
+    "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\Utilitarios\\Utilitarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\MaquinaDeLanches\\MaquinaDeLanches.csproj",
-        "projectName": "MaquinaDeLanches",
-        "projectPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\MaquinaDeLanches\\MaquinaDeLanches.csproj",
+        "projectUniqueName": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\Utilitarios\\Utilitarios.csproj",
+        "projectName": "Utilitarios",
+        "projectPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\Utilitarios\\Utilitarios.csproj",
         "packagesPath": "C:\\Users\\MIr4aii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\MaquinaDeLanches\\obj\\",
+        "outputPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\Utilitarios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MIr4aii\\AppData\\Roaming\\NuGet\\NuGet.Config"

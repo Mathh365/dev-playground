@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Utilitarios/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Utilitarios.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilitarios.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Utilitarios/1.0.0": {
+      "type": "project",
+      "path": "../Utilitarios/Utilitarios.csproj",
+      "msbuildProject": "../Utilitarios/Utilitarios.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Utilitarios >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\MIr4aii\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\MaquinaDeLanches\\MaquinaDeLanches.csproj",
-      "projectName": "MaquinaDeLanches",
-      "projectPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\MaquinaDeLanches\\MaquinaDeLanches.csproj",
+      "projectUniqueName": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO\\PraticaPOO.csproj",
+      "projectName": "PraticaPOO",
+      "projectPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO\\PraticaPOO.csproj",
       "packagesPath": "C:\\Users\\MIr4aii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\MaquinaDeLanches\\obj\\",
+      "outputPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MIr4aii\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\Utilitarios\\Utilitarios.csproj": {
+              "projectPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\Utilitarios\\Utilitarios.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
