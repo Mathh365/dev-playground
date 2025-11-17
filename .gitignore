@@ -1,4 +1,10 @@
-/ExerciciosEmCSharp/PraticaPOO/obj
-/ExerciciosEmCSharp/PraticaPOO/bin
-/ExerciciosEmCSharp/Utilitarios/obj
+# Ignorar pastas de build do .NET (bin/ e obj/) em qualquer nivel
+[Bb]in/
+[Oo]bj/
 
+# Ignorar arquivos e pastas de cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de cache gerais do sistema operacional ou editor
+*.cache
