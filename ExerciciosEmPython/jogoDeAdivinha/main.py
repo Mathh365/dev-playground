@@ -11,18 +11,18 @@ vidas = 5
 tts.speak('Vamos jogar um jogo')
 # voz.runAndWait()
 
-print('-=-' * 30)
-print(f'Acabei de escolher um numero entre 0 a 5. Faça um chute, se acertar, voce ganha \n{'-=-' * 30}\n Lembrando que voce tem: {vidas} chances\n\n{"↓    " * 19}')
+print("-=-" * 30)
+print(f'Acabei de escolher um numero entre 0 a 5. Faça um chute, se acertar, voce ganha \n{"-=-" * 30}\n Lembrando que voce tem: {vidas} chances\n\n{"↓    " * 19}')
 
 try:
     while True:
         rdn = int(choice(numeros))
-        tentativa = int(input('--> '))
+        tentativa = int(input("--> "))
         tts.speak('piu')
         # voz.runAndWait()
         
         if tentativa not in numeros:
-            print(f'Numero invalido, por favor escolha um numero entre {', '.join(str(n) for n in numeros)}')
+            print(f'Numero invalido, por favor escolha um numero entre {", ".join(str(n) for n in numeros)}')
         else:
             if tentativa != rdn:
                 vidas -= 1
@@ -30,14 +30,14 @@ try:
                 tts.speak(f"{vidas} chances restantes")
                 # voz.runAndWait()
                 if vidas == 0:
-                    print(f'Voce esgotou suas chances, perdeu')
+                    print('Voce esgotou suas chances, perdeu')
                     tts.speak('Voce esgotou suas chances, perdeu')
                     # voz.runAndWait()
                     break
             else:
-                print(f'{'-=-' * 20}Resposta eeeeeeXATA!! Parabens, a vitória é sua{'-=-' * 20}')
+                print(f'{"-=-" * 20}Resposta eeeeeeXATA!! Parabens, a vitória é sua{"-=-" * 20}')
                 tocar.tocar('sources\musicaDoSenna.mp3')
                 sleep(10)
                 break
 except:
-    print(f'Invalido, por favor tente novamente\nCODIGO DO ERRO: ')
+    print('Invalido, por favor tente novamente\nCODIGO DO ERRO: ')
