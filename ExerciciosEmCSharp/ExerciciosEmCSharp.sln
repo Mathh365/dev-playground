@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilitarios", "Utilitarios\Utilitarios.csproj", "{8A999A61-3EBC-48A7-8DEA-96E551CB54B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PraticaPOO", "PraticaPOO\PraticaPOO.csproj", "{BCC9DD49-1C94-404E-A69B-2F914902D01D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PraticaPOO (Base do meu jogo)", "PraticaPOO (Base do meu jogo)\PraticaPOO (Base do meu jogo).csproj", "{BCC9DD49-1C94-404E-A69B-2F914902D01D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

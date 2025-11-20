@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO\\PraticaPOO.csproj",
-      "projectName": "PraticaPOO",
-      "projectPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO\\PraticaPOO.csproj",
+      "projectUniqueName": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO (Base do meu jogo)\\PraticaPOO (Base do meu jogo).csproj",
+      "projectName": "PraticaPOO (Base do meu jogo)",
+      "projectPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO (Base do meu jogo)\\PraticaPOO (Base do meu jogo).csproj",
       "packagesPath": "C:\\Users\\MIr4aii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO\\obj\\",
+      "outputPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO (Base do meu jogo)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MIr4aii\\AppData\\Roaming\\NuGet\\NuGet.Config"

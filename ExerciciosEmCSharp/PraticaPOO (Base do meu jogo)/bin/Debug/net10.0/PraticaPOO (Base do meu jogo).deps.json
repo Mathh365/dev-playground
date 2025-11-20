@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "PraticaPOO (Base do meu jogo)/1.0.0": {
+        "dependencies": {
+          "Utilitarios": "1.0.0"
+        },
+        "runtime": {
+          "PraticaPOO (Base do meu jogo).dll": {}
+        }
+      },
+      "Utilitarios/1.0.0": {
+        "runtime": {
+          "Utilitarios.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PraticaPOO (Base do meu jogo)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilitarios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

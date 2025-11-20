@@ -11,8 +11,8 @@ Torre torre3 = new(3);
 // Console.WriteLine(torre3.info());
 
 torre3.DoDamage(monstro1);
-// torre3.DoDamage(monstro1);
+torre3.DoDamage(monstro1);
 Console.WriteLine(monstro1.Info());
 
-// torre3.DoDamage(monstro1);
+torre3.DoDamage(monstro1);
 // Console.WriteLine(monstro1.Info());
