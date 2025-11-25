@@ -1,8 +1,10 @@
 ﻿using FuncoesDoMenu;
 
+
 Console.Clear();
 bool isOn = true;
-Console.WriteLine("Bem vindo ao menu interativo.");
+List<string> lista = new List<string>();
+Console.WriteLine("Bem vindo ao menu interativo. Aqui voce poderá executar algumas funçoes do nosso sistema, bem como interagir com uma lista de compras que esta integrada ao app, qualquer duvida basta entrarar em contato com o suporte");
 
 do
 {
@@ -14,8 +16,8 @@ do
     1- Hello World (Apresenta "Hello World" na tela)
     2- Somador (Solicita 2 numeros e apresenta a soma entre eles)
     3- Contador (Conta de 0 ate o numero que voce escolher)
-    4- (NÃO IMPLEMENTADO AINDA)
-    5- (NÃO IMPLEMENTADO AINDA)
+    4- LISTAR ITENS DA LISTA
+    5- ADICIONAR ITENS NA LISTA
 
     Ou digite "0" para encerrar o serviço
     Opção: 
@@ -47,14 +49,13 @@ do
             break;
         case 4:
             Console.Clear();
-            MyUtil.NaoImplementado();
+            Func04.Exec(lista);
             break;
         case 5:
             Console.Clear();
-            MyUtil.NaoImplementado();
+            Console.WriteLine("Vamos adicionar itens a sua lista.\nAssim que quiser parar, basta digitar 'fim'.");
+            Func05.Exec(lista);
             break;
-
-
         case 0:
             Console.Clear();
             Console.WriteLine("Obrigado por usar os serviços MirANet\nEncerrando sistema");

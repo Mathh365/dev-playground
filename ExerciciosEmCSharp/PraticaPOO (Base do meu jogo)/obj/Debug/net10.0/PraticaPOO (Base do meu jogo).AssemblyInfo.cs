@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PraticaPOO (Base do meu jogo)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+632e4da67ab13529293d7cd46f6a3cad546fb190")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b0302725de7650316880c69e4250deec4c4dd8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PraticaPOO (Base do meu jogo)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PraticaPOO (Base do meu jogo)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
