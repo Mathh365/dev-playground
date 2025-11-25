@@ -10,14 +10,21 @@ namespace FuncoesDoMenu
 
             if (lista.Count == 0)
             {
-                Console.Write("Vazio, deseja adicionar itens?\n(S/N)");
+                Console.Write("Vazio, deseja adicionar itens?\n(y/n): ");
+                char opcao = Convert.ToChar(Console.ReadLine().ToLower());
+                if (opcao == 'y') Add.Exec(lista);
+                else 
+                {
+                    MyUtil.Loading();
+                    Console.Clear();
+                }
             }
             else
             {
                 MyUtil.ExibirLista(lista);
+                MyUtil.ReturnToMenu();
+                Console.Clear();
             }
-            MyUtil.ReturnToMenu();
-            Console.Clear();
         }
     }
 }
