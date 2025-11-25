@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "PraticaPOO (Base do meu jogo)/1.0.0": {
+      "MenuInterativo/1.0.0": {
         "runtime": {
-          "PraticaPOO (Base do meu jogo).dll": {}
+          "MenuInterativo.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "PraticaPOO (Base do meu jogo)/1.0.0": {
+    "MenuInterativo/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

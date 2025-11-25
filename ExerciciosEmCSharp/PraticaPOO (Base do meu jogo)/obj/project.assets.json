@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {
-      "Utilitarios/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/Utilitarios.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Utilitarios.dll": {}
-        }
-      }
-    }
+    "net10.0": {}
   },
-  "libraries": {
-    "Utilitarios/1.0.0": {
-      "type": "project",
-      "path": "../Utilitarios/Utilitarios.csproj",
-      "msbuildProject": "../Utilitarios/Utilitarios.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net10.0": [
-      "Utilitarios >= 1.0.0"
-    ]
+    "net10.0": []
   },
   "packageFolders": {
     "C:\\Users\\MIr4aii\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO (Base do meu jogo)\\PraticaPOO (Base do meu jogo).csproj",
+      "projectUniqueName": "c:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO (Base do meu jogo)\\PraticaPOO (Base do meu jogo).csproj",
       "projectName": "PraticaPOO (Base do meu jogo)",
-      "projectPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO (Base do meu jogo)\\PraticaPOO (Base do meu jogo).csproj",
+      "projectPath": "c:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO (Base do meu jogo)\\PraticaPOO (Base do meu jogo).csproj",
       "packagesPath": "C:\\Users\\MIr4aii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO (Base do meu jogo)\\obj\\",
+      "outputPath": "c:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\PraticaPOO (Base do meu jogo)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MIr4aii\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,11 +31,7 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {
-            "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\Utilitarios\\Utilitarios.csproj": {
-              "projectPath": "C:\\Users\\MIr4aii\\OneDrive\\Documents\\repositorios\\MeusRepositorios\\dev-playground\\ExerciciosEmCSharp\\Utilitarios\\Utilitarios.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -1,0 +1,15 @@
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\bin\Debug\net10.0\MenuInterativo.exe
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\bin\Debug\net10.0\MenuInterativo.deps.json
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\bin\Debug\net10.0\MenuInterativo.runtimeconfig.json
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\bin\Debug\net10.0\MenuInterativo.dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\bin\Debug\net10.0\MenuInterativo.pdb
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\obj\Debug\net10.0\MenuInterativo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\obj\Debug\net10.0\MenuInterativo.AssemblyInfoInputs.cache
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\obj\Debug\net10.0\MenuInterativo.AssemblyInfo.cs
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\obj\Debug\net10.0\MenuInterativo.csproj.CoreCompileInputs.cache
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\obj\Debug\net10.0\MenuInterativo.sourcelink.json
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\obj\Debug\net10.0\MenuInterativo.dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\obj\Debug\net10.0\refint\MenuInterativo.dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\obj\Debug\net10.0\MenuInterativo.pdb
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\obj\Debug\net10.0\MenuInterativo.genruntimeconfig.cache
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\MenuInterativo\obj\Debug\net10.0\ref\MenuInterativo.dll
