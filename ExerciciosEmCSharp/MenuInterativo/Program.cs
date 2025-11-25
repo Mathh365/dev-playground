@@ -4,12 +4,10 @@
 Console.Clear();
 bool isOn = true;
 List<string> lista = new List<string>();
-Console.WriteLine("Bem vindo ao menu interativo. Aqui voce poderá executar algumas funçoes do nosso sistema, bem como interagir com uma lista de compras que esta integrada ao app, qualquer duvida basta entrarar em contato com o suporte");
+Console.WriteLine("Bem vindo ao menu interativo. Aqui voce poderá adicionar, remover, editar, ou listar os itens de sua lista de compras.");
 
 do
 {
-    Console.Clear();
-    
     Console.Write("""
     Seja bem vindo, escolha uma das opçoes a baixo:
 
@@ -27,20 +25,16 @@ do
     switch (opcaoEscolhida)
     {
         case "1":
-            Console.Clear();
-            Func01.Exec(lista);
+            Listing.Exec(lista);
             break;
         case "2":
-            Console.Clear();
-            Func02.Exec(lista);
+            Add.Exec(lista);
             break;
         case "3":
-            Console.Clear();
-            Func03.Exec(lista);
+            Remove.Exec(lista);
             break;
         case "4":
-            Console.Clear();
-            Func04.Exec(lista);
+            Clear.Exec(lista);
             break;
         case "encerrar":
             Console.Clear();
@@ -49,6 +43,7 @@ do
             isOn = !isOn;
             break;
         default:
+            Console.Clear();
             Console.WriteLine("Invalido, por favor digite novamente");
             break;
         }

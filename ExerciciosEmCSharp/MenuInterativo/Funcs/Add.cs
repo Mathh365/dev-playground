@@ -1,9 +1,11 @@
 namespace FuncoesDoMenu
 {
-    public static class Func02
+    public static class Add
     {
         public static void Exec(List<string> lista1)
         {
+            Console.Clear();
+            
             string item = null;
             do
             {
@@ -20,6 +22,7 @@ namespace FuncoesDoMenu
 
             Console.Write("\nRetornando");
             MyUtil.Loading();
+            Console.Clear();
         }
     }
 }
