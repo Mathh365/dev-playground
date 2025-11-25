@@ -19,5 +19,10 @@ namespace FuncoesDoMenu
             Console.WriteLine();
             Loading();
         }
+        public static void NaoImplementado ()
+        {
+            Console.WriteLine("AINDA NAO IMPLEMENTADO, RETORNANDO AO MENU PRINCIPAL");
+            Loading();
+        }
     }
 }

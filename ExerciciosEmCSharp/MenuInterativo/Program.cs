@@ -1,11 +1,11 @@
 ﻿using FuncoesDoMenu;
 
 Console.Clear();
+bool isOn = true;
 Console.WriteLine("Bem vindo ao menu interativo.");
 
 do
 {
-    int opcaoEscolhida = 0;
     Console.Clear();
     
     Console.Write("""
@@ -13,15 +13,15 @@ do
 
     1- Hello World (Apresenta "Hello World" na tela)
     2- Somador (Solicita 2 numeros e apresenta a soma entre eles)
-    3- Media ponderada (Calcula uma media ponderada, com sistema de pesos)
-    4- Media aritmetica (Calcula uma media aritmetica comum)
-    5- 
+    3- (NÃO IMPLEMENTADO AINDA)
+    4- Contador (Conta de 0 ate o numero que voce escolher)
+    5- (NÃO IMPLEMENTADO AINDA)
 
     Ou digite "0" para encerrar o serviço
     Opção: 
     """);
 
-    opcaoEscolhida = Convert.ToInt16(Console.ReadLine());
+    int opcaoEscolhida = Convert.ToInt16(Console.ReadLine());
 
     switch (opcaoEscolhida)
     {
@@ -41,13 +41,25 @@ do
             Func02.Exec(n1, n2);
             break;
         case 3:
-            
+            Console.Clear();
+            MyUtil.NaoImplementado();
             break;
         case 4:
+            Console.Clear();
+            Console.Write("Irei contar ate o numero escolhido por voce, por favor digite um numero\nNumero: ");
+            Func04.Exec(Convert.ToInt16(Console.ReadLine()));
             break;
         case 5:
+            Console.Clear();
+            MyUtil.NaoImplementado();
             break;
-    }
-} while (true);
+        case 0:
+            Console.Clear();
+            Console.WriteLine("Obrigado por usar os serviços MirANet\nEncerrando sistema");
+            MyUtil.Loading();
+            isOn = !isOn;
+            break;
+        }
+} while (isOn);
 
 
