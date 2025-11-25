@@ -13,58 +13,43 @@ do
     Console.Write("""
     Seja bem vindo, escolha uma das opçoes a baixo:
 
-    1- Hello World (Apresenta "Hello World" na tela)
-    2- Somador (Solicita 2 numeros e apresenta a soma entre eles)
-    3- Contador (Conta de 0 ate o numero que voce escolher)
-    4- LISTAR ITENS DA LISTA
-    5- ADICIONAR ITENS NA LISTA
-    6- REMOVER ITENS DA LISTA
-
-    Ou digite "0" para encerrar o serviço
+    1- LISTAR ITENS DA LISTA
+    2- ADICIONAR ITENS NA LISTA
+    3- REMOVER ITENS DA LISTA
+    4- LIMPAR A LISTA
+   
+    Ou digite "ENCERRAR" para encerrar o serviço
     Opção: 
     """);
 
-    int opcaoEscolhida = Convert.ToInt16(Console.ReadLine());
+    string opcaoEscolhida = Console.ReadLine().ToLower();
 
     switch (opcaoEscolhida)
     {
-        case 1:
+        case "1":
             Console.Clear();
-            Func01.Exec();
+            Func01.Exec(lista);
             break;
-        case 2:
+        case "2":
             Console.Clear();
-            Console.Write("Farei a soma de 2 numeros, por gentileza digite os numeros a serem usados.\n'APENAS NUMEROS INTEIROS SAO ACEITOS'");
-
-            Console.Write("\nNumero 1: ");
-            int n1 = Convert.ToInt16(Console.ReadLine());
-            Console.Write("\nNumero 2: ");
-            int n2 = Convert.ToInt16(Console.ReadLine());
-            
-            Func02.Exec(n1, n2);
+            Func02.Exec(lista);
             break;
-        case 3:
+        case "3":
             Console.Clear();
-            Console.Write("Irei contar ate o numero escolhido por voce, por favor digite um numero\nNumero: ");
-            Func03.Exec(Convert.ToInt16(Console.ReadLine()));
+            Func03.Exec(lista);
             break;
-        case 4:
+        case "4":
             Console.Clear();
             Func04.Exec(lista);
             break;
-        case 5:
-            Console.Clear();
-            Func05.Exec(lista);
-            break;
-        case 6:
-            Console.Clear();
-            Func06.Exec(lista);
-            break;
-        case 0:
+        case "encerrar":
             Console.Clear();
             Console.WriteLine("Obrigado por usar os serviços MirANet\nEncerrando sistema");
             MyUtil.Loading();
             isOn = !isOn;
+            break;
+        default:
+            Console.WriteLine("Invalido, por favor digite novamente");
             break;
         }
 } while (isOn);

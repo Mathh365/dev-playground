@@ -6,6 +6,7 @@ namespace FuncoesDoMenu
     {
         public static void Exec (int numero)
         {
+
             for (int i = 1; i < numero + 1; i++)
             {
                 Console.WriteLine(i);

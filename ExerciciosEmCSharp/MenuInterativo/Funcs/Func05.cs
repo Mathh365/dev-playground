@@ -1,6 +1,6 @@
 namespace FuncoesDoMenu
 {
-    public static class Func05
+    public static class Func02
     {
         public static void Exec(List<string> lista1)
         {
@@ -16,7 +16,7 @@ namespace FuncoesDoMenu
                     lista1.Add(item);
                     Console.WriteLine($"{item} adicionado com sucesso a sua lista.\n");
                 }
-            } while(item != "fim");
+            } while (item != "fim");
 
             Console.Write("\nRetornando");
             MyUtil.Loading();

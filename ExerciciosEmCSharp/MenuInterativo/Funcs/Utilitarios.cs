@@ -24,7 +24,6 @@ namespace FuncoesDoMenu
                 }
                 Console.Clear();
             }
-            Console.WriteLine();
         }
 
         public static void ReturnToMenu()

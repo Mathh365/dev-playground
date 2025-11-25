@@ -1,6 +1,6 @@
 namespace FuncoesDoMenu
 {
-    public static class Func04
+    public static class Func01
     {
         public static void Exec (List<string> lista)
         {
@@ -8,7 +8,7 @@ namespace FuncoesDoMenu
 
             if (lista.Count == 0)
             {
-                Console.Write("Vazio, deseja adicionar itens?\n(SIM / NÃO)");
+                Console.Write("Vazio, deseja adicionar itens?\n(S/N)");
             }
             else
             {
