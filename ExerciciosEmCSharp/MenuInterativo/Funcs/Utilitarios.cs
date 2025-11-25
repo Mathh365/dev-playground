@@ -7,12 +7,12 @@ namespace FuncoesDoMenu
             for (int i = 0; i < 3; i++)
             {
                 Console.Write(".");
-                Thread.Sleep(900);
+                Thread.Sleep(800);
             }
             Console.WriteLine();
         }
 
-        public static void Retorno()
+        public static void ReturnToMenu()
         {
             Console.WriteLine("Pressione qualquer tecla para retornar ao menu");
             Console.ReadKey();

@@ -13,8 +13,8 @@ do
 
     1- Hello World (Apresenta "Hello World" na tela)
     2- Somador (Solicita 2 numeros e apresenta a soma entre eles)
-    3- (NÃO IMPLEMENTADO AINDA)
-    4- Contador (Conta de 0 ate o numero que voce escolher)
+    3- Contador (Conta de 0 ate o numero que voce escolher)
+    4- (NÃO IMPLEMENTADO AINDA)
     5- (NÃO IMPLEMENTADO AINDA)
 
     Ou digite "0" para encerrar o serviço
@@ -42,17 +42,19 @@ do
             break;
         case 3:
             Console.Clear();
-            MyUtil.NaoImplementado();
+            Console.Write("Irei contar ate o numero escolhido por voce, por favor digite um numero\nNumero: ");
+            Func03.Exec(Convert.ToInt16(Console.ReadLine()));
             break;
         case 4:
             Console.Clear();
-            Console.Write("Irei contar ate o numero escolhido por voce, por favor digite um numero\nNumero: ");
-            Func04.Exec(Convert.ToInt16(Console.ReadLine()));
+            MyUtil.NaoImplementado();
             break;
         case 5:
             Console.Clear();
             MyUtil.NaoImplementado();
             break;
+
+
         case 0:
             Console.Clear();
             Console.WriteLine("Obrigado por usar os serviços MirANet\nEncerrando sistema");
@@ -61,5 +63,3 @@ do
             break;
         }
 } while (isOn);
-
-

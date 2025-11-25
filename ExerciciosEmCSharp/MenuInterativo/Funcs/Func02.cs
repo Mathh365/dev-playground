@@ -7,7 +7,7 @@ namespace FuncoesDoMenu
             Console.WriteLine("Processando");
             MyUtil.Loading();
             Console.WriteLine($"{n1} + {n2} = {n1 + n2}");
-            MyUtil.Retorno();
+            MyUtil.ReturnToMenu();
         }
     }
 }

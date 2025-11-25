@@ -5,7 +5,7 @@ namespace FuncoesDoMenu
         public static void Exec()
         {
             Console.WriteLine("Hello World");
-            MyUtil.Retorno();
+            MyUtil.ReturnToMenu();
         }
     }
 }
