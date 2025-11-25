@@ -17,12 +17,12 @@ namespace FuncoesDoMenu
             Console.Clear();
             
             for (int i = 0; i < 3; i++){
-                Console.Clear();
                 for (int i2 = 0; i2 < 3; i2++)
                 {
                     Console.Write(".");
                     Thread.Sleep(delay);
                 }
+                Console.Clear();
             }
             Console.WriteLine();
         }
@@ -37,6 +37,17 @@ namespace FuncoesDoMenu
         {
             Console.WriteLine("AINDA NAO IMPLEMENTADO, RETORNANDO AO MENU PRINCIPAL");
             Loading(350);
+        }
+
+        public static void ExibirLista(List<string> lista)
+        {
+            int numero = 0;
+            foreach(string i in lista)
+            {
+                Thread.Sleep(1);
+                numero++;
+                Console.WriteLine($"Item numero {numero}: {i}");
+            }
         }
     }
 }

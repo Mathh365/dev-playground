@@ -18,6 +18,7 @@ do
     3- Contador (Conta de 0 ate o numero que voce escolher)
     4- LISTAR ITENS DA LISTA
     5- ADICIONAR ITENS NA LISTA
+    6- REMOVER ITENS DA LISTA
 
     Ou digite "0" para encerrar o serviço
     Opção: 
@@ -53,8 +54,11 @@ do
             break;
         case 5:
             Console.Clear();
-            Console.WriteLine("Vamos adicionar itens a sua lista.\nAssim que quiser parar, basta digitar 'fim'.");
             Func05.Exec(lista);
+            break;
+        case 6:
+            Console.Clear();
+            Func06.Exec(lista);
             break;
         case 0:
             Console.Clear();
