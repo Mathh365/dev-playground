@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PraticaPOO (Base do meu jogo)", "PraticaPOO (Base do meu jogo)\PraticaPOO (Base do meu jogo).csproj", "{BCC9DD49-1C94-404E-A69B-2F914902D01D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuInterativo", "MenuInterativo\MenuInterativo.csproj", "{AD4C3B3E-98B1-439E-8CB1-1129876F6649}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD basico", "CRUD basico\CRUD basico.csproj", "{AD4C3B3E-98B1-439E-8CB1-1129876F6649}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
