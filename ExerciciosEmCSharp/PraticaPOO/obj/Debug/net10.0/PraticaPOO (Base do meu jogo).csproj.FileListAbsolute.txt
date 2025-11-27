@@ -1,0 +1,30 @@
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\bin\Debug\net10.0\PraticaPOO (Base do meu jogo).exe
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\bin\Debug\net10.0\PraticaPOO (Base do meu jogo).deps.json
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\bin\Debug\net10.0\PraticaPOO (Base do meu jogo).runtimeconfig.json
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\bin\Debug\net10.0\PraticaPOO (Base do meu jogo).dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\bin\Debug\net10.0\PraticaPOO (Base do meu jogo).pdb
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).AssemblyInfoInputs.cache
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).AssemblyInfo.cs
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).csproj.CoreCompileInputs.cache
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).sourcelink.json
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\obj\Debug\net10.0\refint\PraticaPOO (Base do meu jogo).dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).pdb
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).genruntimeconfig.cache
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO (Base do meu jogo)\obj\Debug\net10.0\ref\PraticaPOO (Base do meu jogo).dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\bin\Debug\net10.0\PraticaPOO (Base do meu jogo).exe
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\bin\Debug\net10.0\PraticaPOO (Base do meu jogo).deps.json
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\bin\Debug\net10.0\PraticaPOO (Base do meu jogo).runtimeconfig.json
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\bin\Debug\net10.0\PraticaPOO (Base do meu jogo).dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\bin\Debug\net10.0\PraticaPOO (Base do meu jogo).pdb
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).AssemblyInfoInputs.cache
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).AssemblyInfo.cs
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).csproj.CoreCompileInputs.cache
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).sourcelink.json
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\obj\Debug\net10.0\refint\PraticaPOO (Base do meu jogo).dll
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).pdb
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\obj\Debug\net10.0\PraticaPOO (Base do meu jogo).genruntimeconfig.cache
+C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\PraticaPOO\obj\Debug\net10.0\ref\PraticaPOO (Base do meu jogo).dll
