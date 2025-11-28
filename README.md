@@ -13,9 +13,9 @@ Este repositório é uma coletânea de pequenos códigos, exercícios de sala, t
 ```
 Repositorio
      ├──.vscode ── PODE SER IGNORADO
+     ├──ExerciciosEmCSharp ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em C#
      ├──ExerciciosEmJava ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em Java
      ├──ExerciciosEmPython ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em Python
-     ├──ExerciciosEmCSharp ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em C#
      ├──.gitattributes ── PODE SER IGNORADO
      ├──LICENSE ── Licença do repositorio
      └──README.md ── PODE SER IGNORADO
