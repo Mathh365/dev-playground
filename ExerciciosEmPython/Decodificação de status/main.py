@@ -27,8 +27,8 @@ for i, item in enumerate(binario[::-1]):
     
 
 print(f"""
-      Codigo do modulo que enviou este status: {(f.BinToDecimal(codigoDoModulo[::-1]))}
-      Tipo do erro: {f.BinToDecimal(tipoDeErro[::-1])}
-      Nivel da bateria: {f.BinToDecimal(nivelDaBateria[::-1])}
-      Temperatura: {f.BinToDecimal(temperatura[::-1])}
+      Codigo do modulo que enviou este status: {(f.BinToDecimal(codigoDoModulo))}
+      Tipo do erro: {f.BinToDecimal(tipoDeErro)}
+      Nivel da bateria: {f.BinToDecimal(nivelDaBateria)}
+      Temperatura: {f.BinToDecimal(temperatura)}
       """)
