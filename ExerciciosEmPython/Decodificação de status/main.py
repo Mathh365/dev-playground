@@ -32,5 +32,3 @@ print(f"""
       Nivel da bateria: {f.BinToDecimal(nivelDaBateria[::-1])}
       Temperatura: {f.BinToDecimal(temperatura[::-1])}
       """)
-
-
