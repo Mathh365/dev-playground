@@ -19,7 +19,7 @@ tipoDeErro = str()
 codigoDoModulo = str()
 
 binario = f.HexToBin("B29E")
-for i, item in enumerate(binario[::-1]):
+for i, item in enumerate(reversed(binario)):
     if (0 <= i <= 4): temperatura += item
     if (13 <= i <= 15): codigoDoModulo += item
     if (10 <= i <= 12): tipoDeErro += item
