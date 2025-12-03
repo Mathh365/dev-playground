@@ -20,11 +20,10 @@ codigoDoModulo = str()
 
 binario = f.HexToBin("B29E")
 for i, item in enumerate(reversed(binario)):
-    if (0 <= i <= 4): temperatura += item
-    if (13 <= i <= 15): codigoDoModulo += item
-    if (10 <= i <= 12): tipoDeErro += item
-    if (5 <= i <= 9): nivelDaBateria += item
-    
+    if (0 <= i and i <= 4): temperatura += item
+    if (13 <= i and i <= 15): codigoDoModulo += item
+    if (10 <= i and i <= 12): tipoDeErro += item
+    if (5 <= i and i <= 9): nivelDaBateria += item
 
 print(f"""
       Codigo do modulo que enviou este status: {(f.BinToDecimal(codigoDoModulo))}
