@@ -12,13 +12,14 @@ import funcoes.Conversor as f
 # bits: 9 a 5 Nível de bateria Valor de 0 (vazia) a 31 (cheia)
 # bits: 4 a 0 Temperatura Temperatura em graus (0 a 31)
 
+codigoDeStatus = "B29E"
 
 temperatura = str()
 nivelDaBateria = str()
 tipoDeErro = str()
 codigoDoModulo = str()
 
-binario = f.HexToBin("B29E")
+binario = f.HexToBin(codigoDeStatus)
 for i, item in enumerate(reversed(binario)):
     if (0 <= i and i <= 4): temperatura += item
     if (13 <= i and i <= 15): codigoDoModulo += item
@@ -26,7 +27,11 @@ for i, item in enumerate(reversed(binario)):
     if (5 <= i and i <= 9): nivelDaBateria += item
 
 print(f"""
-      Codigo do modulo que enviou este status: {(f.BinToDecimal(codigoDoModulo))}
+      Codigo de status recebido: {codigoDeStatus}
+      Descifrando...
+      
+      
+      Codigo do modulo emissor: {(f.BinToDecimal(codigoDoModulo))}
       Tipo do erro: {f.BinToDecimal(tipoDeErro)}
       Nivel da bateria: {f.BinToDecimal(nivelDaBateria)}
       Temperatura: {f.BinToDecimal(temperatura)}
