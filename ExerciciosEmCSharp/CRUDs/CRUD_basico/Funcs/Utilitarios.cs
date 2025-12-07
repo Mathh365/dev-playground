@@ -2,7 +2,7 @@ namespace MenuCases
 {
     public static class MyUtil
     {
-        public static void Loading(int delay = 750)
+        public static void Loading(int delay = 500)
         {
             Console.WriteLine();
             for (int i = 0; i < 3; i++)

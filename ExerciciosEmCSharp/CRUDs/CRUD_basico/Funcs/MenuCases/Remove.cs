@@ -24,7 +24,7 @@ namespace MenuCases
             } while (item != 0);
 
             Console.WriteLine("\nRetornando");
-            MyUtil.Loading();
+            MyUtil.Loading(300);
             Console.Clear();
         }
     }
