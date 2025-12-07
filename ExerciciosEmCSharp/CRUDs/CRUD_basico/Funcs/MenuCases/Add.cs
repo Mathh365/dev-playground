@@ -1,4 +1,4 @@
-namespace MenuFunctions
+namespace MenuCases
 {
     public static class Add
     {

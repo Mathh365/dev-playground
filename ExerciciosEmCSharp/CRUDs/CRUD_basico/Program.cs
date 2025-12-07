@@ -1,9 +1,9 @@
-﻿using MenuFunctions;
+﻿using MenuCases;
 
 
 Console.Clear();
 bool isOn = true;
-List<string> lista = new List<string>();
+List<string> shoppingList = new List<string>();
 Console.WriteLine("Bem vindo ao menu interativo. Aqui voce poderá adicionar, remover, editar, ou listar os itens de sua lista de compras.");
 
 do
@@ -15,6 +15,7 @@ do
     2- ADICIONAR ITENS NA LISTA
     3- REMOVER ITENS DA LISTA
     4- LIMPAR A LISTA
+    5- EXPORTAR LISTA EM .txt
 
     Ou digite "ENCERRAR" para encerrar o serviço
     Opção: 
@@ -25,16 +26,24 @@ do
     switch (opcaoEscolhida)
     {
         case "1":
-            Listing.Exec(lista);
+            Listing.Exec(shoppingList);
             break;
         case "2":
-            Add.Exec(lista);
+            Add.Exec(shoppingList);
             break;
         case "3":
-            Remove.Exec(lista);
+            Remove.Exec(shoppingList);
             break;
         case "4":
-            Clear.Exec(lista);
+            Clear.Exec(shoppingList);
+            break;
+        case "5":
+            Console.Clear();
+            Save.Exec(shoppingList);
+            Console.Write("Salvando");
+            MyUtil.Loading(1100);
+            Console.Clear();
+            Console.WriteLine("Salva com sucesso, voce pode encontrar sua lista dentro da pasta \"Downloads\" do seu computador");
             break;
         case "encerrar":
             Console.Clear();
