@@ -6,7 +6,7 @@ namespace MenuCases
         {
             Console.Write("Qual será o nome do arquivo?\nNome: ");
             string name = Console.ReadLine();
-            string path = @$"C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\CRUDs\CRUD_basico\Files\ShoppingLists\{name}.txt";
+            string path = @$"C:\Users\MIr4aii\OneDrive\Documents\repositorios\MeusRepositorios\dev-playground\ExerciciosEmCSharp\CRUDs\CRUD_basico\Files\ShoppingLists\{name}.txt"; //caminho onde as listas serao salvas
 
             if (File.Exists(path))
             {
