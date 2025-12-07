@@ -1,6 +1,5 @@
 ﻿using MenuCases;
 
-
 Console.Clear();
 bool isOn = true;
 List<string> shoppingList = new List<string>();
@@ -38,12 +37,7 @@ do
             Clear.Exec(shoppingList);
             break;
         case "5":
-            Console.Clear();
             Save.Exec(shoppingList);
-            Console.Write("Salvando");
-            MyUtil.Loading(1100);
-            Console.Clear();
-            Console.WriteLine("Salva com sucesso, voce pode encontrar sua lista dentro da pasta \"Downloads\" do seu computador");
             break;
         case "encerrar":
             Console.Clear();

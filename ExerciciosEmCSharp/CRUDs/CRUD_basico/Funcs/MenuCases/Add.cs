@@ -21,7 +21,7 @@ namespace MenuCases
             } while (item != "fim");
 
             Console.Write("\nRetornando");
-            MyUtil.Loading();
+            MyUtil.Loading(300);
             Console.Clear();
         }
     }
