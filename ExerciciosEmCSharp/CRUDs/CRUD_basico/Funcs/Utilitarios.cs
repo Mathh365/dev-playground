@@ -1,4 +1,4 @@
-namespace FuncoesDoMenu
+namespace MenuFunctions
 {
     public static class MyUtil
     {

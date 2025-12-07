@@ -1,4 +1,4 @@
-﻿using FuncoesDoMenu;
+﻿using MenuFunctions;
 
 
 Console.Clear();
@@ -15,7 +15,7 @@ do
     2- ADICIONAR ITENS NA LISTA
     3- REMOVER ITENS DA LISTA
     4- LIMPAR A LISTA
-   
+
     Ou digite "ENCERRAR" para encerrar o serviço
     Opção: 
     """);
