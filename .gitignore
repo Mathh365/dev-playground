@@ -3,3 +3,5 @@
 /ExerciciosEmCSharp/**/bin/
 /ExerciciosEmCSharp/**/obj/
 /ExerciciosEmCSharp/CRUDs/CRUD_basico/Files/ShoppingLists
+.idea/
+*.iml
