@@ -5,3 +5,4 @@
 *.dll
 *.exe
 *.pdb
+/ExerciciosEmCSharp/CRUDs/CRUD_basico/Files/ShoppingLists
