@@ -12,11 +12,9 @@ Este repositório é uma coletânea de pequenos códigos, exercícios de sala, t
 ###### *Exercicios de pratica pessoais, e exercicios de cursos, estao separados por pastas.*
 ```
 Repositorio
-     ├──.vscode ── PODE SER IGNORADO
      ├──ExerciciosEmCSharp ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em C#
      ├──ExerciciosEmJava ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em Java
      ├──ExerciciosEmPython ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em Python
-     ├──.gitattributes ── PODE SER IGNORADO
      ├──LICENSE ── Licença do repositorio
      └──README.md ── PODE SER IGNORADO
 ```
