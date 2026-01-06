@@ -1,2 +1,7 @@
 .vscode
 .gitattributes
+/ExerciciosEmCSharp/**/bin/
+/ExerciciosEmCSharp/**/obj/
+*.dll
+*.exe
+*.pdb
