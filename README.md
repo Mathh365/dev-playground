@@ -12,9 +12,9 @@ Este repositório é uma coletânea de pequenos códigos, exercícios de sala, t
 ###### *Exercicios de pratica pessoais, e exercicios de cursos, estao separados por pastas.*
 ```
 Repositorio
-     ├──ExerciciosEmCSharp ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em C#
-     ├──ExerciciosEmJava ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em Java
-     ├──ExerciciosEmPython ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em Python
+     ├──CSharp ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em C#
+     ├──Java ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em Java
+     ├──Python ── Aqui voce vai encontrar todos os meus exercicios e praticas/projetos pequenos em Python
      ├──LICENSE ── Licença do repositorio
      └──README.md ── PODE SER IGNORADO
 ```
@@ -51,7 +51,7 @@ Desde os meus primeiros códigos, ainda tateando os conceitos básicos, até os 
 
 ## Tecnologias e conceitos
 
-- **Python & Java** como principais linguagens.
+- **C#, Python e Java** como principais linguagens.
 - **Lógica de Programação** e pensamento computacional  
 - **Estruturas de dados**, **funções**, **loops** e **tratamento de exceções**  
 - **Testes de automação e experimentos com IA** em fases de estudo  
