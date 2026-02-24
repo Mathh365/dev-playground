@@ -1,8 +1,8 @@
 .vscode
 .gitattributes
-/ExerciciosEmCSharp/**/bin/
-/ExerciciosEmCSharp/**/obj/
-/ExerciciosEmCSharp/CRUDs/CRUD_basico/Files/ShoppingLists
+/CSharp/**/bin/
+/CSharp/**/obj/
+/CSharp/CRUDs/CRUD_basico/Files/ShoppingLists
 .idea/
 *.iml
 __pycache__/
