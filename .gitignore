@@ -1,9 +1,0 @@
-.vscode
-.gitignore
-.gitattributes
-/CSharp/**/bin/
-/CSharp/**/obj/
-/CSharp/CRUDs/CRUD_basico/Files/ShoppingLists
-.idea/
-*.iml
-__pycache__/
