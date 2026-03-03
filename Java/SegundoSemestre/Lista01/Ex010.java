@@ -1,5 +1,5 @@
 //Faça um programa que receba e armazene em um array os nomes de 10 pessoas. O programa deve sortear um ganhador entre os nomes presentes no array e apresentar o ganhador na tela.
-
+package SegundoSemestre.Lista01;
 import java.util.Scanner;
 
 public class Ex010 {

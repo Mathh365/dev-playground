@@ -1,5 +1,6 @@
 //Faça um programa que receba o nome de uma pessoa e seu respetivo sexo. Caso o sexo da pessoa seja “F”, apresente na tela “Ilmo. Sra.” acompanhado do nome da pessoa. Se o sexo informado for “M”, exiba “Ilmo. Sr.” seguido do nome da pessoa. Caso a entrada não corresponda a nenhuma dessas opções, exiba “sexo inválido”.
 
+package SegundoSemestre.Lista01;
 import java.util.Scanner;
 
 public class Ex006 {

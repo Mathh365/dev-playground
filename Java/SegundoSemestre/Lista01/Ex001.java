@@ -1,6 +1,7 @@
 //Usando a entrada de dados recebe quatro valores decimais, respectivos as notas de cada bimestre.
 //Depois de coletadas a quatro notas, realizar operação de soma e médiadas notas, mostrando em tela.
 
+package SegundoSemestre.Lista01;
 import java.util.Scanner;
 
 public class Ex001 {

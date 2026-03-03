@@ -10,6 +10,7 @@
 //        7 -> Sábado
 //        Se o usuário digitar um dia inexistente mostra uma mensagem “Dia Inválido”.
 
+package SegundoSemestre.Lista01;
 import java.util.Scanner;
 
 public class Ex002 {

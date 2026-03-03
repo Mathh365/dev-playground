@@ -1,5 +1,6 @@
 //Faça um programa que recebe um número e retorna o resultado de seu valor em fatorial. Por exemplo: 5! = 5 x 4 x 3 x 2 x 1 = 120.
 
+package SegundoSemestre.Lista01;
 public class Ex009 {
     public static void main(String[] args) {
         System.out.println(Ex009.Fatorial(10));

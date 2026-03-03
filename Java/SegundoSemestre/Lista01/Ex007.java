@@ -1,5 +1,6 @@
 // /Escreva um algoritmo que receba a idade de 3 pessoas. O algoritmo deve verificar se cada indivíduo é maior de idade e calcular a média de idade somente das pessoas que têm idade igual ou superior a 18 anos. E como saída exibir na tela média das idade dos maiores de 18 anos.
 
+package SegundoSemestre.Lista01;
 import java.util.Scanner;
 
 public class Ex007 {

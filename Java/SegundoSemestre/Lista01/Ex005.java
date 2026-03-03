@@ -1,5 +1,6 @@
 //Faça um programa que receba um número e informe se ele é ímpar ou par.
 
+package SegundoSemestre.Lista01;
 import java.util.Scanner;
 
 public class Ex005 {
