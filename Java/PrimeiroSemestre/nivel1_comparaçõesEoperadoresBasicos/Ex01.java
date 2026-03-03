@@ -12,7 +12,7 @@ public class Ex01 {
         Double n1 = null;
         Double n2 = null;
         int n3 = 0;
-        String resposta = null;
+        String resposta;
 
         System.out.println("Digite 2 numeros, que serao usados em uma operação");
         System.out.print("Numero 1:");

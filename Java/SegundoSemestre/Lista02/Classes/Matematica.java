@@ -1,4 +1,4 @@
-package SegundoSemestre.Lista02.Ex002;
+package SegundoSemestre.Lista02.Classes;
 import java.util.Scanner;
 
 public class Matematica {
@@ -7,7 +7,7 @@ public class Matematica {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("""
-            Escolha uma operação, diigite um numero entre: \n
+            Escolha uma operação, diigite um numero entre:
             1 - Adição
             2 - Subtração
             3 - Multiplicação
@@ -29,6 +29,26 @@ public class Matematica {
         return 0;
     } 
 
+    public double Soma(double n1, double n2){
+        return n1 + n2;
+    }
+
+    public double Subtracao(double n1, double n2){
+        return n1 - n2;
+    }
+
+    public double Multiplicacao (double n1, double n2){
+        return n1 * n2;
+    }
+
+    public double Divisao (double n1, double n2){
+        return n1 / n2;
+    }
+
+    public boolean IsEven (double num){
+        if ((num / 2) == 0) return true; else return false;
+    }
+
 
     public double Potencia(int potencia, double num){
         double resultado = num;
@@ -38,5 +58,9 @@ public class Matematica {
         }
 
         return resultado;
+    }
+
+    public double Radiciação(){
+        
     }
 }

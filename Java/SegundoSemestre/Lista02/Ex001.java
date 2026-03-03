@@ -1,6 +1,7 @@
-import java.util.Scanner;
+package SegundoSemestre.Lista02;
+import SegundoSemestre.Lista02.Classes.Matematica;
 
-public class Main {
+public class Ex001 {
     public static void main(String[] args) {
                 
         Matematica math = new Matematica();
