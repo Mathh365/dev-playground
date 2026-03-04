@@ -60,7 +60,7 @@ public class Matematica {
         return resultado;
     }
 
-    public double Radiciação(){
-        
+    public double Radiciação(double num){
+        return Math.sqrt(num);
     }
 }
