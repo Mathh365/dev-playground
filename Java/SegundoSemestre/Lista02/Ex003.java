@@ -7,6 +7,6 @@ public class Ex003 {
     public static void main(String[] args) {
         Matematica math = new Matematica();
 
-        System.out.println(math.Radiciação(9));
+        System.out.println(math.radiciacao(10,3));
     }
 }
