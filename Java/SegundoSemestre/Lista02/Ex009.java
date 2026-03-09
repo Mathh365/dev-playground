@@ -10,7 +10,7 @@ public class Ex009 {
     public static void main(String[] args) {
         MediaFinal m = new MediaFinal();
         
-        double nota = m.ExecutorDaPipeline(10, 6, 9, 8, 9, 6, 4, 7, 7, 8);
+        double nota = m.executorDaPipeline(10, 6, 9, 8, 9, 6, 4, 7, 7, 8);
         System.out.printf("%.2f\n", nota);
     }
 }
