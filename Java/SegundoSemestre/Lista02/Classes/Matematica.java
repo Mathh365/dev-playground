@@ -7,22 +7,23 @@ public class Matematica {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("""
-            Escolha uma operação, diigite um numero entre:
+            Escolha uma operação, diigite um numero entre as opões abaixo:
             1 - Adição
             2 - Subtração
             3 - Multiplicação
             4 - Divisão""");
+
         int opcao = sc.nextInt();
 
         switch (opcao) {
             case 1:
-                return n1 + n2;
+                return Soma(n1, n2);
             case 2:
-                return n1 - n2;
+                return Subtracao(n1, n2);
             case 3:
-                return n1 * n2;
+                return Multiplicacao(n1, n2);
             case 4:
-                return n1 / n2;
+                return Divisao(n1, n2);
             default:
                 break;
         }
@@ -46,7 +47,7 @@ public class Matematica {
     }
 
     public boolean IsEven (double num){
-        if ((num / 2) == 0) return true; else return false;
+        return ((num % 2) == 0);
     }
 
 
@@ -62,5 +63,9 @@ public class Matematica {
 
     public static double radiciacao(double num1, int raiz) {
         return Math.pow(num1, 1.0 / raiz);
+    }
+
+    public boolean Divisivel(double numeroDividido, double numeroDivisor){
+        return ((numeroDividido % numeroDivisor) == 0);
     }
 }

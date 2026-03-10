@@ -37,20 +37,20 @@ public class MediaFinal {
 
     public double executorDaPipeline(double l1, double l2, double l3, double l4, double l5, double l6, double l7, double ag, double afParte1, double afParte2) {
 
-    double ac1 = AC1(l1, l2);
-    if (ac1 == -1) return -1;
+        double ac1 = AC1(l1, l2);
+        if (ac1 == -1) return -1;
 
-    double ac2 = AC2(l3, l4, l5, l6, l7);
-    if (ac2 == -1) return -1;
+        double ac2 = AC2(l3, l4, l5, l6, l7);
+        if (ac2 == -1) return -1;
 
-    double af = AF(afParte1, afParte2);
-    if (af == -1) return -1;
+        double af = AF(afParte1, afParte2);
+        if (af == -1) return -1;
 
-    if (!isValid(ag)) {
-        System.out.println("Nota AG inválida");
-        return -1;
+        if (!isValid(ag)) {
+            System.out.println("Nota AG inválida");
+            return -1;
+        }
+
+        return media(ac1, ac2, ag, af);
     }
-
-    return media(ac1, ac2, ag, af);
-}
 }
